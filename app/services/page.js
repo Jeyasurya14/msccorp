@@ -137,7 +137,7 @@ export default function Services() {
                     {/* Map */}
                     <div className="relative w-full max-w-3xl mx-auto h-[300px] md:h-[400px] mb-10">
                         <Image
-                            src="/images/us-map.png"
+                            src="/images/nationwide-coverage.png"
                             alt="Nationwide coverage map"
                             fill
                             className="object-contain"
