@@ -92,7 +92,7 @@ export async function POST(request) {
         const resend = new Resend(process.env.RESEND_API_KEY);
 
         const data = await resend.emails.send({
-            from: 'Michael Scott Contractor <onboarding@resend.dev>', // Update this if you have a custom domain
+            from: 'Michael Scott Contractor <contact@msccorp.co>',
             to: [process.env.CONTACT_EMAIL || 'michaelscottcontractorllc@gmail.com'],
             reply_to: email, // Allow replying directly to the user
             subject: `New Inquiry from ${name} - ${service || 'General Inquiry'}`,
@@ -118,9 +118,9 @@ export async function POST(request) {
             return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
         }
 
-        // 5. Send Auto-Reply (Optional but recommended)
+        // 5. Send Auto-Reply
         await resend.emails.send({
-            from: 'Michael Scott Contractor <onboarding@resend.dev>',
+            from: 'Michael Scott Contractor <contact@msccorp.co>',
             to: [email],
             subject: 'We received your message - Michael Scott Contractor LLC',
             html: `
