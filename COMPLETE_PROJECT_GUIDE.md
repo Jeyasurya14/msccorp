@@ -29,7 +29,7 @@ Here is a guide to the most important files and folders in your project:
 
 - **`components/`**: Reusable building blocks.
   - **`ui/`**: Basic UI elements like Buttons, Inputs, and Cards.
-  - **`Navbar.jsx` & `Footer.jsx`**: The navigation and footer bars.
+  - **`Header.js` & `Footer.js`**: The navigation and footer bars.
 
 - **`public/`**: Static assets like images, logos, and icons.
   - Images placed here are accessible via `yourdomain.com/image.png`.
