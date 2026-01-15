@@ -26,6 +26,7 @@ Here is a guide to the most important files and folders in your project:
   - **`globals.css`**: Global design styles and Tailwind configuration.
   - **`api/contact/route.js`**: The backend code that handles contact form emails.
   - **`services/page.js`, `about/page.js`, `contact/page.js`**: Specific pages of your website.
+  - **`privacy-policy/page.js`, `terms-of-service/page.js`**: Legal pages.
 
 - **`components/`**: Reusable building blocks.
   - **`ui/`**: Basic UI elements like Buttons, Inputs, and Cards.
