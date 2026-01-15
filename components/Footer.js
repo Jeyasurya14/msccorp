@@ -49,7 +49,8 @@ export default function Footer() {
                             <li><Link href="/services" className="text-gray-400 hover:text-brand-gold transition-colors flex items-center"><span className="mr-2">›</span> Services</Link></li>
                             <li><Link href="/about" className="text-gray-400 hover:text-brand-gold transition-colors flex items-center"><span className="mr-2">›</span> About Us</Link></li>
                             <li><Link href="/contact" className="text-gray-400 hover:text-brand-gold transition-colors flex items-center"><span className="mr-2">›</span> Contact</Link></li>
-                            <li><Link href="#" className="text-gray-500 hover:text-gray-300 transition-colors flex items-center"><span className="mr-2">›</span> Privacy Policy</Link></li>
+                            <li><Link href="/privacy-policy" className="text-gray-500 hover:text-gray-300 transition-colors flex items-center"><span className="mr-2">›</span> Privacy Policy</Link></li>
+                            <li><Link href="/terms-of-service" className="text-gray-500 hover:text-gray-300 transition-colors flex items-center"><span className="mr-2">›</span> Terms of Service</Link></li>
                         </ul>
                     </div>
 
