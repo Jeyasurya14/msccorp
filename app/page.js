@@ -13,7 +13,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-brand-dark/60 z-10" />
         <div
           className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2670&auto=format&fit=crop')" }}
+          style={{ backgroundImage: "url('/hero-mall.png')" }}
         />
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -82,7 +82,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "National Reach", desc: "Projects executed seamlessly across all 50 states.", icon: MapPin },
+              { title: "Projects executed seamlessly across the USA", desc: "Projects executed seamlessly across the USA", icon: MapPin },
               { title: "Mall Specialists", desc: "Deep understanding of mall operations and protocols.", icon: Star },
               { title: "Proven Track Record", desc: "Hundreds of successful remodels and happy clients.", icon: CheckCircle },
               { title: "Dedicated Team", desc: "Owner and Managers directly involved in every job.", icon: Users },
@@ -121,10 +121,34 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Recent Projects Placeholder */}
+      {/* Project Gallery */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400 italic">Project photos coming soon...</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">Completed Projects</h2>
+            <div className="w-24 h-1 bg-brand-gold mx-auto rounded-full"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { name: "Perfumania", image: "/project-perfumania.png" },
+              { name: "Perfumes4you", image: "/project-perfumes4you.png" },
+              { name: "GNC", image: "/project-gnc.png" },
+              { name: "Claire's", image: "/project-caires.png" },
+              { name: "One Main Financial", image: "/project-onemain.png" },
+            ].map((project, idx) => (
+              <div key={idx} className="group relative overflow-hidden rounded-lg shadow-lg aspect-[4/3]">
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                  style={{ backgroundImage: `url('${project.image}')` }}
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-300" />
+                <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                  <h3 className="text-xl font-bold text-white">{project.name}</h3>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

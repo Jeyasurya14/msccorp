@@ -113,27 +113,27 @@ export default function About() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <TeamMember
-                            initials="MS"
-                            name="Michael Scott (Owner)"
-                            title="Owner & President"
+                            initials="S"
+                            name="Scott"
+                            title="Owner"
                             bio="Strategic vision and over 20 years of experience in the national construction industry. Leads the company with a focus on integrity and results."
-                            email="owner@mscco.com"
+                            email="owner@msccorp.co"
                             phone="304-552-8228"
                         />
                         <TeamMember
-                            initials="CM"
-                            name="Construction Manager"
+                            initials="C"
+                            name="Chris"
                             title="Construction Manager"
                             bio="Expert oversight of field operations, ensuring safety, quality control, and strict code compliance on every job site."
-                            email="construction@mscco.com"
-                            phone="304-552-8228"
+                            email="construction@msccorp.co"
+                            phone="918-520-9599"
                         />
                         <TeamMember
-                            initials="PM"
-                            name="Project Manager"
+                            initials="R"
+                            name="Ron"
                             title="Project Manager"
                             bio="Detailed coordination of schedules, logistics, and communication. Your primary point of contact for day-to-day updates."
-                            email="projects@mscco.com"
+                            email="projects@msccorp.co"
                             phone="304-993-9176"
                         />
                     </div>

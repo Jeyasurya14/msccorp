@@ -65,8 +65,8 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="font-semibold text-gray-900">Email Address</p>
-                                        <a href="mailto:michaelscottcontractorllc@gmail.com" className="text-gray-600 hover:text-brand-blue transition-colors break-all">
-                                            michaelscottcontractorllc@gmail.com
+                                        <a href="mailto:info@msccorp.co" className="text-gray-600 hover:text-brand-blue transition-colors break-all">
+                                            info@msccorp.co
                                         </a>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="font-semibold text-gray-900">Business Hours</p>
-                                        <p className="text-gray-600">Mon - Fri: 8:00 AM - 6:00 PM EST</p>
+                                        <p className="text-gray-600">8am-5pm EST</p>
                                         <p className="text-gray-500 text-sm">Sat: By Appointment | Sun: Closed</p>
                                     </div>
                                 </div>
@@ -89,18 +89,18 @@ export default function Contact() {
                             <h3 className="text-xl font-bold font-heading text-brand-gold mb-6">Direct Team Access</h3>
                             <div className="space-y-6">
                                 <div className="border-b border-gray-700 pb-4">
-                                    <p className="font-bold text-white">Owner</p>
-                                    <a href="mailto:owner@mscco.com" className="text-gray-400 hover:text-white text-sm block">owner@mscco.com</a>
+                                    <p className="font-bold text-white">Scott - Owner</p>
+                                    <a href="mailto:owner@msccorp.co" className="text-gray-400 hover:text-white text-sm block">owner@msccorp.co</a>
                                     <a href="tel:304-552-8228" className="text-gray-400 hover:text-white text-sm block">(304) 552-8228</a>
                                 </div>
                                 <div className="border-b border-gray-700 pb-4">
-                                    <p className="font-bold text-white">Construction Manager</p>
-                                    <a href="mailto:construction@mscco.com" className="text-gray-400 hover:text-white text-sm block">construction@mscco.com</a>
-                                    <a href="tel:304-552-8228" className="text-gray-400 hover:text-white text-sm block">(304) 552-8228</a>
+                                    <p className="font-bold text-white">Chris - Construction Manager</p>
+                                    <a href="mailto:construction@msccorp.co" className="text-gray-400 hover:text-white text-sm block">construction@msccorp.co</a>
+                                    <a href="tel:918-520-9599" className="text-gray-400 hover:text-white text-sm block">(918) 520-9599</a>
                                 </div>
                                 <div>
-                                    <p className="font-bold text-white">Project Manager</p>
-                                    <a href="mailto:projects@mscco.com" className="text-gray-400 hover:text-white text-sm block">projects@mscco.com</a>
+                                    <p className="font-bold text-white">Ron - Project Manager</p>
+                                    <a href="mailto:projects@msccorp.co" className="text-gray-400 hover:text-white text-sm block">projects@msccorp.co</a>
                                     <a href="tel:304-993-9176" className="text-gray-400 hover:text-white text-sm block">(304) 993-9176</a>
                                 </div>
                             </div>

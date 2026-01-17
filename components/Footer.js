@@ -68,10 +68,10 @@ export default function Footer() {
                             <li className="flex items-start">
                                 <Mail className="w-5 h-5 text-brand-gold mt-1 mr-3 flex-shrink-0" />
                                 <div className="flex flex-col">
-                                    <a href="mailto:michaelscottcontractorllc@gmail.com" className="text-gray-300 hover:text-white break-all">
-                                        michaelscottcontractorllc@gmail.com
+                                    <a href="mailto:info@msccorp.co" className="text-gray-300 hover:text-white break-all">
+                                        info@msccorp.co
                                     </a>
-                                    <span className="text-gray-500 text-xs mt-1">Mon - Fri, 8:00 AM - 6:00 PM EST</span>
+                                    <span className="text-gray-500 text-xs mt-1">8am-5pm EST</span>
                                 </div>
                             </li>
                             <li className="flex items-start">
