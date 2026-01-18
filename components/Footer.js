@@ -31,7 +31,7 @@ export default function Footer() {
                             National Retail Construction Experts
                         </p>
                         <p className="text-gray-400 leading-relaxed mb-6">
-                            Specializing in high-quality retail store remodels and mall construction projects across all 50 states. We bring your vision to life with precision and professionalism.
+                            Specializing in high-quality retail store remodels and mall construction projects. We bring your vision to life with precision and professionalism.
                         </p>
                         <div className="flex space-x-4">
                             {/* Social Placeholders */}

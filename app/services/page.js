@@ -132,7 +132,7 @@ export default function Services() {
             <section className="py-20 bg-brand-dark text-white text-center">
                 <div className="max-w-4xl mx-auto px-4">
                     <h2 className="text-3xl font-bold font-heading mb-6">Nationwide Coverage</h2>
-                    <p className="text-xl text-gray-300 mb-10">Serving retail clients across all 50 United States</p>
+                    <p className="text-xl text-gray-300 mb-10">Serving retail clients nationwide</p>
 
                     {/* Map */}
                     <div className="relative w-full max-w-3xl mx-auto h-[300px] md:h-[400px] mb-10">

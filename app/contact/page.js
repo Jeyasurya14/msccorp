@@ -44,7 +44,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="font-semibold text-gray-900">National Headquarters</p>
-                                        <p className="text-gray-600">Serving clients nationwide across all 50 states.</p>
+                                        <p className="text-gray-600">Serving clients nationwide.</p>
                                     </div>
                                 </div>
 

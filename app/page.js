@@ -22,7 +22,7 @@ export default function Home() {
               Establish Excellence
             </h2>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading mb-6 leading-tight">
-              Transforming Retail Spaces<br />Across America
+              Serving Retail Clients Nationwide
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto font-light">
               National retail construction experts specializing in mall store remodels from coast to coast.
@@ -125,14 +125,14 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">Completed Projects</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">Companies we’ve contracted with</h2>
             <div className="w-24 h-1 bg-brand-gold mx-auto rounded-full"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { name: "Perfumania", image: "/project-perfumania.png" },
-              { name: "Perfumes4you", image: "/project-perfumes4you.png" },
+              { name: "Perfumes4U", image: "/project-perfumes4you.png" },
               { name: "GNC", image: "/project-gnc.png" },
               { name: "Claire's", image: "/project-caires.png" },
               { name: "One Main Financial", image: "/project-onemain.png" },
