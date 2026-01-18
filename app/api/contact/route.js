@@ -91,9 +91,21 @@ export async function POST(request) {
 
         const resend = new Resend(process.env.RESEND_API_KEY);
 
+        // Determine Recipient based on Service/Project Type
+        let primaryRecipient = 'info@msccorp.co'; // Default
+        const ownerEmail = 'owner@msccorp.co';
+
+        if (service === 'Store Remodel' || service === 'New Construction') {
+            primaryRecipient = 'construction@msccorp.co';
+        } else if (service === 'Mall Project') {
+            primaryRecipient = 'projects@msccorp.co';
+        }
+
+        // Send Email
         const data = await resend.emails.send({
             from: 'Michael Scott Contractor <contact@msccorp.co>',
-            to: [process.env.CONTACT_EMAIL || 'michaelscottcontractorllc@gmail.com'],
+            to: [primaryRecipient],
+            cc: [ownerEmail], // Ensure Owner always gets a copy
             reply_to: email, // Allow replying directly to the user
             subject: `New Inquiry from ${name} - ${service || 'General Inquiry'}`,
             html: `
