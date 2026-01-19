@@ -92,8 +92,9 @@ export async function POST(request) {
         const resend = new Resend(process.env.RESEND_API_KEY);
 
         // Determine Recipient based on Service/Project Type
+        // Determine Recipient based on Service/Project Type
         let primaryRecipient = 'info@msccorp.co'; // Default
-        const gmailBackup = 'michaelscottcontractorllc@gmail.com';
+        const gmailBackup = process.env.CONTACT_EMAIL || 'michaelscottcontractorllc@gmail.com';
 
         if (service === 'Store Remodel' || service === 'New Construction') {
             primaryRecipient = 'construction@msccorp.co';
