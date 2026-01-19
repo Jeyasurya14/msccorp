@@ -93,7 +93,7 @@ export async function POST(request) {
 
         // Determine Recipient based on Service/Project Type
         let primaryRecipient = 'info@msccorp.co'; // Default
-        const ownerEmail = 'owner@msccorp.co';
+        const gmailBackup = 'michaelscottcontractorllc@gmail.com';
 
         if (service === 'Store Remodel' || service === 'New Construction') {
             primaryRecipient = 'construction@msccorp.co';
@@ -105,7 +105,7 @@ export async function POST(request) {
         const data = await resend.emails.send({
             from: 'Michael Scott Contractor <contact@msccorp.co>',
             to: [primaryRecipient],
-            cc: [ownerEmail], // Ensure Owner always gets a copy
+            cc: [gmailBackup], // Direct backup to Gmail (bypassing domain forwarding issues)
             reply_to: email, // Allow replying directly to the user
             subject: `New Inquiry from ${name} - ${service || 'General Inquiry'}`,
             html: `
